@@ -3,7 +3,7 @@ import { FaReact } from 'react-icons/fa'
 import { CgWorkAlt } from 'react-icons/cg'
 import { LuGraduationCap } from 'react-icons/lu'
 
-import BlogAppImg from '@/public/BlogApp.png'
+import BlogAppImg from '@/public/blogApp.png'
 import BrainwaveImg from '@/public/brainwave.png'
 import SearchEngineImg from '@/public/searchEngine.png'
 
