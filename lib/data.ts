@@ -5,7 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu'
 
 import BlogAppImg from '@/public/blogApp.png'
 import BrainwaveImg from '@/public/brainwave.png'
-import SearchEngineImg from '@/public/searchEngine.png'
+import WeatherImg from '@/public/weather.png'
 
 export const links = [
 	{
@@ -67,18 +67,22 @@ export const projectsData = [
 			'Developed a high-performance SaaS product marketing website, optimizing the landing page for clear communication and user engagement.',
 		tags: ['React', 'JavaScript', 'Tailwind'],
 		imageUrl: BrainwaveImg,
+		projectUrl: 'https://brain-ai-wave.netlify.app/',
 	},
 	{
-		title: 'SearchEngine',
-		description: 'Implemented a search engine using Drizzle ORM with PostgreSQL for a Next.js application.',
-		tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Drizzle'],
-		imageUrl: SearchEngineImg,
+		title: 'Weather',
+		description:
+			'Implemented a weather application using React Query to fetch weather data from the OpenWeatherMap API.',
+		tags: ['React', 'TypeScript', 'Tanstack/React Query', 'Tailwind', 'Shadcn'],
+		imageUrl: WeatherImg,
+		projectUrl: 'https://weather-tanstack.netlify.app/',
 	},
 	{
 		title: 'Blog Application',
 		description: 'Developed a blog application in Next.js featuring the latest posts and articles.',
-		tags: ['React', 'Next.js', 'JavaScript', 'Tailwind'],
+		tags: ['React', 'Next.Js', 'JavaScript', 'Tailwind'],
 		imageUrl: BlogAppImg,
+		projectUrl: 'https://next-blog-blue-three.vercel.app/',
 	},
 ] as const
 
